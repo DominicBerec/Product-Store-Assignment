@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <style>
+        #shop {
+            width: 30px;
+            margin-left: 400px;
+            margin-top: 5px;
+        }
+
+        .text {
+            margin-left: 30px;
+        }
+
+        .comfy {
+            margin-left: 249px;
+            font-family: "Brush Script MT";
+            color: black;
+            font-size: 50px;
+        }
+
+        .toptext {
+            font-family: cursive;
+            margin-top: 250px;
+
+        }
+
+        .nav-link:hover {
+            color: chocolate;
+        }
+
+        .nav-link {
+            color: black;
+
+        }
+
+        .comfy:hover {
+            color: chocolate;
+        }
+
+        .header {
+            background-color: lightgrey;
+            color: grey;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        a {
+            text-decoration: none;
+            color: grey
+        }
+
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .image-container:hover .overlay {
+            display: flex;
+        }
+
+        .overlay {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .overlay img {
+            margin: 10px;
+        }
+
+        .width {
+            width: 30px;
+            background-color: chocolate;
+            padding: 4px;
+        }
+        .width:hover {
+            background-color: rgb(128,66,22) ;
+
+        }
+.form-control {
+    background-color: lightgrey;
+}
+        .d-flex {
+            margin-left: -25px;
+        }
+        .lost {
+            margin-right: -30px;
+        }
+        img {
+            border-radius: 5px;
+        }
+#bottom {
+    margin-bottom: 30px;
+}
+.break {
+    margin-bottom: 25px;
+}
+    </style>
+
+</head>
+
+<body>
+
+    <div class="main container">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <div class="container-fluid">
+                    <div class="navbar-expand">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class=" nav-link  fs-4" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text nav-link  fs-4" href="products.html">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text nav-link  fs-4" href="about.html">About</a>
+                            </li>
+                            <a class="text-decoration-none" href="index.html">
+                                <div class="comfy display-4 navbar-brand" href="index.html"> comfy</div>
+                            </a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="blackcart.png" id="shop" alt="Shopping Cart"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+    <div class="container-fluid header display-6  ">
+        <div class="container">Home / Products</div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+
+
+            <div class="col">
+                <input type="search" placeholder="Search..." class="form-control rounded"  aria-describedby="search-addon" > <br>
+                <p>Company</p>
+                <a href="nav-link">All</a> <br>
+                <a href="nav-link">Ikea</a> <br>
+                <a href="nav-link">Marcos</a> <br>
+<br>
+                <p>Price</p>
+                <input type="range">
+                <p>Value: $80</p>
+            </div>
+
+            <div class="col">
+                <div class="image-container">
+                    <img class="thedon" src="High-Back Bench.PNG" alt="High-Back Bench">
+                    <div class="overlay">
+                        <a href="single-productbench.html"><img src="white search icon.png" class="width rounded-circle"
+                                alt="Overlay Search"></a>
+                        <a href="#"><img src="shoppingcart.png" class="width rounded-circle"
+                                alt="Overlay Shopping Cart"></a>
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-center">
+                    High-Back Bench
+                </div>
+                <div id="bottom" class="break d-flex justify-content-center">
+                    <b>$9.99</b>
+                </div>
+                <div class="image-container">
+                    <img class="thedon" src="High-Back Bench.PNG" alt="High-Back Bench">
+                    <div class="overlay">
+                        <a href="single-productbench.html"><img src="white search icon.png" class="width rounded-circle"
+                                alt="Overlay Search"></a>
+                        <a href="#"><img src="shoppingcart.png" class="width rounded-circle"
+                                alt="Overlay Shopping Cart"></a>
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-center">
+                    High-Back Bench
+                </div>
+                <div class=" d-flex justify-content-center">
+                    <b>$9.99</b>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="image-container">
+                    <img class="thedon" src="Leather Sofa.PNG" alt="Leather Sofa">
+                    <div class="overlay">
+                        <a href="single-productsofa.html"><img src="white search icon.png" class="width rounded-circle"
+                                alt="Overlay Search"></a>
+                        <a href="#"><img src="shoppingcart.png" class="width rounded-circle"
+                                alt="Overlay Shopping Cart"></a>
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-center">
+                    Leather Sofa
+                </div>
+                <div class="break d-flex justify-content-center">
+                    <b>$9.99</b>
+                </div>
+                <div class="image-container">
+                    <img class="thedon" src="Leather Sofa.PNG" alt="Leather Sofa">
+                    <div class="overlay">
+                        <a href="single-productsofa.html"><img src="white search icon.png" class="width rounded-circle"
+                                alt="Overlay Search"></a>
+                        <a href="#"><img src="shoppingcart.png" class="width rounded-circle"
+                                alt="Overlay Shopping Cart"></a>
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-center">
+                    Leather Sofa
+                </div>
+                <div class=" d-flex justify-content-center">
+                    <b>$9.99</b>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="image-container">
+                    <img class="thedon" src="e center.PNG" alt="Entertainment Center">
+                    <div class="overlay">
+                        <a href="single-productecenter.html"><img src="white search icon.png" class="width rounded-circle"
+                                alt="Overlay Search"></a>
+                        <a href="#"><img src="shoppingcart.png" class="width rounded-circle"
+                                alt="Overlay Shopping Cart"></a>
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-center">
+                    Entertainment Center
+                </div>
+                <div class="break d-flex justify-content-center">
+                    <b>$9.99</b>
+                </div>
+                      
+                <div class="image-container">
+                    <img class="thedon" src="e center.PNG" alt="Entertainment Center">
+                    <div class="overlay">
+                        <a href="single-productecenter.html"><img src="white search icon.png" class="width rounded-circle"
+                                alt="Overlay Search"></a>
+                        <a href="#"><img src="shoppingcart.png" class="width rounded-circle"
+                                alt="Overlay Shopping Cart"></a>
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-center">
+                    Entertainment Center
+                </div>
+                <div class=" d-flex justify-content-center">
+                    <b>$9.99</b>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
